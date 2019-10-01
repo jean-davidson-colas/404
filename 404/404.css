@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Andromedia";
+    src: url('andromedia/Andromedia.ttf');
+    } 
+
+body
+{
+	background-image:url("écran-cassé.jpg");
+	font-family: 'Andromedia', cursive;
+}
+
+p
+{
+	margin-top: 5px;
+	margin-left: 30%;
+	font-size: 160px;
+	color: red;
+ 	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 5s;
+}
+
+.p2
+{
+	
+	margin-top: 200px;
+	margin-left: 20%;
+	font-size: 50px;
+	color: red;
+ 	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 5s;
+    height: 100px;
+}
+
+@keyframes fadeInOpacity 
+
+{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.tof
+{
+	margin-top: -7%;
+	margin-left: 40%;
+	height: 300px;
+
+}
